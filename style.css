@@ -338,7 +338,10 @@ body{
     }
     
     .background{
+        width:1440px;
+        height:437px;
         background-image: url(/images/pattern-background-desktop.svg);
+        display: block;
     }
     
     .hero-div{
