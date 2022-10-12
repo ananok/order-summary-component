@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    width:375px;
+    height:660px;
+    position: absolute;
+    background: #E0E8FF;
+    height:660px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.background{
+    position:absolute;
+    width:375px;
+    height:195px;
+}
+
+.wrapper{
+    width:327px;
+    height:567px;
+    position: absolute;
+    top:71px;
+    right:24px;
+    left:24px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+}
+
+.hero-div{
+    background: #382AE1;
+    border-radius: 20px 20px 0px 0px;
+    height: 160px;
+    width: 327px;
+    left: 0px;
+    top: 0px;
+    background-image: url(images/illustration-hero.svg);
+    background-size: cover;
+}
+
+.heading{
+    position: absolute;
+    height: 29px;
+    left: 56px;
+    right: 56px;
+    top: calc(50% - 29px/2 - 77px);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #1F2E55;
+    
+}
+
+.info{
+    position: absolute;
+    height: 75px;
+    width: 263px;
+    left: 32px;
+    top: 237px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #717FA6;
+}
+.plan{
+    position:absolute;
+    height: 81px;
+    width: 279px;
+    left: 24px;
+    top: 336px;
+    border-radius: 11px;
+    display:flex;  
+    background: #F7F9FF;
+    border-radius: 11px;
+    align-items:center;
+}
+
+.annual-plan{
+    margin-left:20px;
+}
+
+.annual{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1F2E55;
+    margin-bottom:3px;
+}
+
+.price{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #717FA6;
+}
+.icon{
+    margin-left:16px;
+}
+
+.change{
+    height: 17px;
+    margin-left: 50px;
+    right: 0%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    background: none;
+    border-style: none;
+}
+
+.payment{
+    height: 50px;
+    width: 279px;
+    position: absolute;
+    left: 24px;
+    right: 0%;
+    top: 440px;
+    bottom: 0%;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color:white;
+    text-align: center;
+    padding:15px;
+}
+.cancel-order{
+    position: absolute;
+    height: 20px;
+    left: 115px;
+    right: 35.47%;
+    top: calc(50% - 20px/2 + 241.5px);
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    width:96px;
+    background:none;
+    border-style:none;
+}
